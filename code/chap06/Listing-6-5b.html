@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+        <!-- Add reference to styles -->
+        <link rel="stylesheet" href="../../css/style.css">
+
+        <!-- Add reference to page script file -->
+        <script src="Listing-6-5b.html.js"></script>
+    </head>
+    <body>
+       <form>
+         <h1>Apress Machine Learning with TensorFlow.js</h1>
+         <h2>Listing 6-5b</h2>
+         <pre>
+// Calls the delete operator to remove a field or property
+function performDeletion() {
+    var country = {
+        name: "Pakistan",
+        capital: "Islamabad",
+        flag: "pakistan.png",
+        currency: "Rupees",
+        ageInYears: 73,
+        rulingParty: "PTI"
+    };
+    
+    delete country.ageInYears;
+    document.getElementById("message").innerHTML = country.name + " was founded " + country.ageInYears + " years ago, and is presently ruled by " + country.rulingParty + ".";
+}
+         </pre>
+         <p id="message"></p>
+         <input type="button" value="Click to Execute Code" onclick="javascript: performDeletion();" />
+        </form>
+    </body>
+</html>

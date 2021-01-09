@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+        <!-- Add reference to styles -->
+        <link rel="stylesheet" href="../../css/style.css">
+     
+        <!-- Add reference to page script file -->
+        <script src="Listing-6-7a.html.js"></script>
+    </head>
+    <body> 
+      <form>
+         <h1>Apress Machine Learning with TensorFlow.js</h1>
+         <h2>Listing 6-7a</h2>
+         <pre>
+function loadImage() {
+    const fileElement = document.getElementById("ImageFile");
+    const imgElement = document.getElementById("ImageElement");
+    
+    const fileReader = new FileReader();
+    fileReader.onload = function() {
+        imgElement.src = fileReader.result;
+    };
+
+    fileReader.readAsDataURL(fileElement.files[0]);
+}
+         </pre>
+         <input type="file" id="ImageFile" />
+         <br /><br />
+         <img id="ImageElement" src="../../images/_blank.png" />
+         <br />
+         <p id="message"></p>
+         <input type="button" value="Click to Execute Code" onclick="javascript: loadImage();  document.getElementById('message').innerHTML = 'Code executed successfully.';" />
+    </form>
+    </body>
+</html>

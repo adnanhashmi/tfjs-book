@@ -1,0 +1,138 @@
+id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,municipality,scheduled_service,gps_code,iata_code,local_code,home_link,wikipedia_link,keywords,score,last_updated
+"#meta +id","#meta +code","#loc +airport +type","#loc +airport +name","#geo +lat","#geo +lon","#geo +elevation +ft","#region +continent +code","#country +code +iso2","#adm1 +code +iso","#loc +municipality +name","#status +scheduled","#loc +airport +code +gps","#loc +airport +code +iata","#loc +airport +code +local","#meta +url +airport","#meta +url +wikipedia","#meta +keywords","#meta +score","#date +updated"
+5255,OPKC,medium_airport,"Jinnah International Airport",24.9065,67.160797,100,AS,PK,PK-SD,Karachi,1,OPKC,KHI,,,https://en.wikipedia.org/wiki/Jinnah_International_Airport,"OPQR, OPHQ, Drigh Road Airstrip, Quaid-E-Azam International Airport",1050,2016-05-15T18:05:15+00:00
+5274,OPRN,medium_airport,"Benazir Bhutto International Airport",33.616699,73.099197,1668,AS,PK,PK-PB,Islamabad,0,OPRN,,,,https://en.wikipedia.org/wiki/Benazir_Bhutto_International_Airport,"ISB, Chaklala Air Base, Islamabad International Airport, Rawalpindi",1050,2018-09-12T00:35:19+00:00
+5257,OPLA,medium_airport,"Alama Iqbal International Airport",31.5216007232666,74.40360260009766,712,AS,PK,PK-PB,Lahore,1,OPLA,LHE,,,https://en.wikipedia.org/wiki/Allama_Iqbal_International_Airport,OPLR,1050,2008-09-01T20:47:57+00:00
+5270,OPPS,medium_airport,"Peshawar International Airport",33.993900299072266,71.51460266113281,1158,AS,PK,PK-NW,Peshawar,1,OPPS,PEW,,,https://en.wikipedia.org/wiki/Peshawar_International_Airport,,875,2008-09-01T20:48:22+00:00
+5272,OPQT,medium_airport,"Quetta International Airport",30.251399993896484,66.93779754638672,5267,AS,PK,PK-BA,Quetta,1,OPQT,UET,,,https://en.wikipedia.org/wiki/Quetta_International_Airport,,800,2009-02-20T09:43:22+00:00
+5279,OPSK,medium_airport,"Sukkur Airport",27.722000122070312,68.79170227050781,196,AS,PK,PK-SD,"Mirpur Khas",1,OPSK,SKZ,,,https://en.wikipedia.org/wiki/Sukkur_Airport,,875,2008-09-01T20:48:31+00:00
+5264,OPMT,medium_airport,"Multan International Airport",30.20319938659668,71.41909790039062,403,AS,PK,PK-PB,Multan,1,OPMT,MUX,,,https://en.wikipedia.org/wiki/Multan_International_Airport,"Multan Air Base",800,2009-02-20T09:54:48+00:00
+41624,OPST,large_airport,"Sialkot Airport",32.5355567932,74.3638916016,837,AS,PK,PK-PB,Sialkot,1,OPST,SKT,,,https://en.wikipedia.org/wiki/Sialkot_International_Airport,,50,2012-10-23T22:10:03+00:00
+5251,OPFA,medium_airport,"Faisalabad International Airport",31.364999771118164,72.99479675292969,591,AS,PK,PK-PB,Faisalabad,1,OPFA,LYP,,,https://en.wikipedia.org/wiki/Faisalabad_International_Airport,OPLF,1025,2008-09-01T20:47:36+00:00
+5253,OPGT,medium_airport,"Gilgit Airport",35.918800354003906,74.33360290527344,4796,AS,PK,PK-NA,Gilgit,1,OPGT,GIL,,,https://en.wikipedia.org/wiki/Gilgit_Airport,,800,2008-09-01T20:47:38+00:00
+32124,OPMS,medium_airport,"Minhas Air Base",33.8690986633,72.4009017944,1023,AS,PK,PK-PB,Kamra,0,OPMS,ATG,,,https://en.wikipedia.org/wiki/Minhas_Airbase,Attock,50,2014-07-05T21:34:50+00:00
+32125,OPRQ,medium_airport,"Rafiqui Air Base",30.758100509643555,72.28250122070312,492,AS,PK,PK-PB,Shorkot,0,OPRQ,,,,https://en.wikipedia.org/wiki/Rafiqui_Airbase,,50,2009-02-20T09:22:25+00:00
+5252,OPGD,medium_airport,"Gwadar International Airport",25.233299255371094,62.329498291015625,36,AS,PK,PK-BA,Gwadar,1,OPGD,GWD,,,https://en.wikipedia.org/wiki/Gwadar_International_Airport,,825,2008-09-01T20:47:38+00:00
+5249,OPDG,medium_airport,"Dera Ghazi Khan Airport",29.961000442504883,70.48590087890625,492,AS,PK,PK-PB,"Dera Ghazi Khan",1,OPDG,DEA,,,https://en.wikipedia.org/wiki/Dera_Ghazi_Khan_Airport,,800,2008-09-01T20:47:35+00:00
+5277,OPSD,medium_airport,"Skardu Airport",35.33549880981445,75.53600311279297,7316,AS,PK,PK-NA,Skardu,1,OPSD,KDU,,,https://en.wikipedia.org/wiki/Skardu_Airport,,800,2008-09-01T20:48:27+00:00
+5283,OPTU,medium_airport,"Turbat International Airport",25.986400604248047,63.03020095825195,498,AS,PK,PK-BA,Turbat,1,OPTU,TUK,,,https://en.wikipedia.org/wiki/Turbat_Airport,,800,2008-09-01T20:48:43+00:00
+5265,OPNH,medium_airport,"Shaheed Benazirabad Airport",26.2194,68.390099,95,AS,PK,PK-SD,Nawabashah,1,OPNH,WNS,,,https://en.wikipedia.org/wiki/Nawabshah_Airport,,575,2016-09-05T02:52:16+00:00
+5254,OPJA,medium_airport,"Shahbaz Air Base",28.28420066833496,68.44969940185547,185,AS,PK,PK-SD,Jacobabad,0,OPJA,JAG,,,https://en.wikipedia.org/wiki/Jacobabad_Airbase,,500,2008-09-01T20:47:39+00:00
+32129,OPOR,small_airport,"Ormara Airport",25.274700164799995,64.58599853519999,10,AS,PK,PK-BA,"Ormara Raik",1,OPOR,ORW,,,https://en.wikipedia.org/wiki/Ormara_Airport,OPOP,350,2011-10-09T10:23:44+00:00
+5261,OPMI,medium_airport,"Mianwali Air Base",32.5630989074707,71.5707015991211,690,AS,PK,PK-PB,Mianwali,0,OPMI,MWD,,,https://en.wikipedia.org/wiki/Dhamial_Army_Airbase,,250,2009-02-20T09:36:40+00:00
+5470,OP1Y,small_airport,"Chandhar Airport",32.0778007507,73.79019927979999,620,AS,PK,PK-PB,Hafizabad,0,OP1Y,,OP1Y,,https://en.wikipedia.org/wiki/Chandhar_Airbase,,50,2011-10-09T12:18:26+00:00
+5263,OPMR,medium_airport,"Masroor Air Base",24.893600463867188,66.93879699707031,35,AS,PK,PK-SD,Karachi,0,OPMR,,,,https://en.wikipedia.org/wiki/Masroor_Airbase,,50,2009-02-20T09:20:37+00:00
+41620,OPLL,small_airport,"Loralai Airport",30.355499267578125,68.6135025024414,4631,AS,PK,PK-BA,Loralai,0,OPLL,LRG,,,,,50,2008-09-01T20:47:58+00:00
+41642,PK-0009,small_airport,"Murid Airport",32.909999847399995,72.7699966431,540,AS,PK,PK-PB,Murid,0,,,,,https://en.wikipedia.org/wiki/Murid_Airbase,,50,2011-10-09T13:46:34+00:00
+5478,OP27,small_airport,"Rahwali Airport",32.23899841308594,74.13099670410156,745,AS,PK,PK-PB,Rahwali,0,OP27,,OP27,,,,50,2008-09-01T20:49:03+00:00
+5473,OP22,small_airport,"Rajanpur Airport",29.263999938964844,70.1864013671875,401,AS,PK,PK-PB,Rajanpur,0,OP22,,OP22,,,,50,2008-09-01T20:49:03+00:00
+32290,OPSR,medium_airport,"Mushaf Air Base",32.04859924316406,72.66500091552734,614,AS,PK,PK-PB,Sargodha,0,OPSR,SGI,,,https://en.wikipedia.org/wiki/Mushaf_Airbase,BHW,50,2009-02-20T09:19:24+00:00
+5472,OP21,small_airport,"Velhari Airport",30.091400146484375,72.15380096435547,430,AS,PK,PK-PB,Velhari,0,OP21,,OP21,,,,50,2008-09-01T20:49:03+00:00
+30601,PK-0001,large_airport,"New Islamabad International Airport",33.560713,72.851613,1646,AS,PK,PK-PB,Islamabad,1,OPIS,ISB,OPIS,http://www.niia.com.pk/,https://en.wikipedia.org/wiki/New_Islamabad_International_Airport,"Fateh Jang, Gandhara",850,2018-09-12T01:09:02+00:00
+5247,OPBW,medium_airport,"Bahawalpur Airport",29.348100662231445,71.71800231933594,392,AS,PK,PK-PB,Bahawalpur,1,OPBW,BHV,,,https://en.wikipedia.org/wiki/Bahawalpur_Airport,,800,2008-09-01T20:47:29+00:00
+5248,OPCH,medium_airport,"Chitral Airport",35.886600494384766,71.80059814453125,4920,AS,PK,PK-NW,Chitral,1,OPCH,CJL,,,https://en.wikipedia.org/wiki/Chitral_Airport,,800,2008-09-01T20:47:29+00:00
+5250,OPDI,medium_airport,"Dera Ismael Khan Airport",31.909400939941406,70.89659881591797,594,AS,PK,PK-NW,"Dera Ismael Khan",1,OPDI,DSK,,,https://en.wikipedia.org/wiki/Dera_Ismail_Khan_Airport,,800,2008-09-01T20:47:35+00:00
+5285,OPZB,medium_airport,"Zhob Airport",31.358400344848633,69.4636001586914,4728,AS,PK,PK-BA,"Fort Sandeman",1,OPZB,PZH,,,https://en.wikipedia.org/wiki/Zhob_Airport,,800,2008-09-01T20:48:47+00:00
+5262,OPMJ,medium_airport,"Moenjodaro Airport",27.3351993560791,68.14309692382812,154,AS,PK,PK-SD,Moenjodaro,1,OPMJ,MJD,,,https://en.wikipedia.org/wiki/Moenjodaro_Airport,,800,2008-09-01T20:48:00+00:00
+5268,OPPG,medium_airport,"Panjgur Airport",26.954500198364258,64.13249969482422,3289,AS,PK,PK-BA,Panjgur,1,OPPG,PJG,,,https://en.wikipedia.org/wiki/Panjgur_Airport,,800,2008-09-01T20:48:19+00:00
+5269,OPPI,medium_airport,"Pasni Airport",25.29050064086914,63.34510040283203,33,AS,PK,PK-BA,Pasni,1,OPPI,PSI,,,https://en.wikipedia.org/wiki/Pasni_Airport,,800,2008-09-01T20:48:21+00:00
+5273,OPRK,medium_airport,"Shaikh Zaid Airport",28.383899688720703,70.27960205078125,271,AS,PK,PK-PB,"Rahim Yar Khan",1,OPRK,RYK,,,https://en.wikipedia.org/wiki/Shaikh_Zayed_International_Airport,"Rahim Yar Khan Airport",800,2008-09-01T20:48:24+00:00
+5280,OPSS,medium_airport,"Saidu Sharif Airport",34.8135986328125,72.35279846191406,3183,AS,PK,PK-NW,"Saidu Sharif",1,OPSS,SDT,,,https://en.wikipedia.org/wiki/Saidu_Sharif_Airport,,800,2008-09-01T20:48:34+00:00
+5260,OPMF,medium_airport,"Muzaffarabad Airport",34.3390007019043,73.50859832763672,2691,AS,PK,PK-JK,Muzaffarabad,1,OPMF,MFG,,,https://en.wikipedia.org/wiki/Muzaffarabad_Airport,,550,2008-09-01T20:47:58+00:00
+5276,OPRT,medium_airport,"Rawalakot Airport",33.849700927734375,73.79810333251953,5479,AS,PK,PK-JK,Rawalakot,1,OPRT,RAZ,,,https://en.wikipedia.org/wiki/Rawalakot_Airport,,550,2008-09-01T20:48:26+00:00
+30590,OPSN,medium_airport,"Sehwan Sharif Airport",26.473100662231445,67.71720123291016,121,AS,PK,PK-SD,"Sehwan Sharif",1,OPSN,SYW,,,https://en.wikipedia.org/wiki/Sehwan_Sharif_Airport,,550,2008-09-01T20:48:31+00:00
+5281,OPSU,medium_airport,"Sui Airport",28.645099639892578,69.1769027709961,763,AS,PK,PK-BA,Sui,0,OPSU,SUL,,,https://en.wikipedia.org/wiki/Sui_Airport,,500,2008-09-01T20:48:37+00:00
+30878,OPDB,small_airport,"Dalbandin Airport",28.878299713100002,64.3998031616,2800,AS,PK,PK-BA,Dalbandin,1,OPDB,DBA,,,https://en.wikipedia.org/wiki/Dalbandin_Airport,OPXX,450,2011-10-09T09:59:40+00:00
+30781,OPBN,small_airport,"Bannu Airport",32.9729,70.527901,1325,AS,PK,PK-NW,Bannu,1,OPBN,BNP,,,https://en.wikipedia.org/wiki/Bannu_Airport,,350,2018-09-15T16:25:40+00:00
+31575,OPKD,small_airport,"Hyderabad Airport",25.3181,68.366096,130,AS,PK,PK-SD,Hyderabad,1,OPKD,HDD,,,https://en.wikipedia.org/wiki/Hyderabad_Airport_(Sindh),,350,2018-09-15T03:52:59+00:00
+31704,OPJI,small_airport,"Jiwani Airport",25.067800521900004,61.8054008484,186,AS,PK,PK-BA,Jiwani,1,OPJI,JIW,,,https://en.wikipedia.org/wiki/Jiwani_Airport,,350,2011-10-09T10:16:02+00:00
+31735,OPKH,small_airport,"Khuzdar Airport",27.790599823,66.6473007202,4012,AS,PK,PK-BA,Khuzdar,1,OPKH,KDD,,,https://en.wikipedia.org/wiki/Khuzdar_Airport,,350,2011-10-09T10:19:00+00:00
+32145,OPPC,small_airport,"Parachinar Airport",33.902099609400004,70.0716018677,5800,AS,PK,PK-TA,Parachinar,1,OPPC,PAJ,,,https://en.wikipedia.org/wiki/Parachinar_Airport,,350,2011-10-09T10:25:58+00:00
+5259,OPMA,medium_airport,"Mangla Airport",33.05009841918945,73.63839721679688,902,AS,PK,PK-PB,Mangla,0,OPMA,XJM,,,https://en.wikipedia.org/wiki/Mangla_Airport,,250,2008-09-01T20:47:58+00:00
+5258,OPLH,medium_airport,"Walton Airport",31.494800567626953,74.34619903564453,679,AS,PK,PK-PB,Walton,0,OPLH,,,,https://en.wikipedia.org/wiki/Walton_Airport,,250,2008-09-01T20:47:57+00:00
+5461,OP12,medium_airport,"Bandari Air Base",27.846500396728516,65.16000366210938,2524,AS,PK,PK-BA,,0,,,,,,OP12,50,2009-02-20T09:00:22+00:00
+5485,OP36,small_airport,"Robray Airport",26.25189971923828,63.13029861450195,1840,AS,PK,PK-BA,,0,OP36,,OP36,,,,50,2008-09-01T20:49:17+00:00
+41610,OPAB,small_airport,"Abbottabad Airport",34.200001,73.25,4072,AS,PK,PK-NW,Abbottabad,0,OPAB,,,,https://en.wikipedia.org/wiki/Abbottabad_Airport,AAW,50,2017-08-19T00:45:27+00:00
+5282,OPTH,small_airport,"Talhar Airport",24.84149932861328,68.8384017944336,28,AS,PK,PK-SD,Badin,0,OPTH,BDN,,,,,50,2008-06-13T14:30:04+00:00
+41612,OPBR,small_airport,"Bahawalnagar Airport",29.946300506591797,73.24909973144531,500,AS,PK,PK-PB,Bahawalnagar,0,OPBR,WGB,,,,,50,2008-09-01T20:47:29+00:00
+41635,PK-0002,small_airport,"Basal Airport",33.529998779296875,72.26000213623047,396,AS,PK,PK-PB,Basal,0,,,,,,,50,2008-09-01T20:49:23+00:00
+5463,OP14,small_airport,"Belab Airport",30.34000015258789,70.55670166015625,377,AS,PK,PK-PB,Belab,0,OP14,,OP14,,,,50,2008-09-01T20:48:58+00:00
+5246,OPBG,small_airport,"Bhagatanwala Airport",32.056098938,72.94840240479999,600,AS,PK,PK-PB,Bhagatanwala,0,OPBG,BHW,,,,,50,2012-07-01T15:13:26+00:00
+41628,PK-BHC,small_airport,"Bhurban Heliport",33.96099853515625,73.4520034790039,5750,AS,PK,PK-NW,Bhurban,0,,BHC,,,,,50,2008-09-01T20:48:49+00:00
+41629,PK-CWP,small_airport,"Campbellpore Airport",33.766700744628906,72.36689758300781,1175,AS,PK,PK-PB,Campbellpore,0,,CWP,,,,,50,2008-09-01T20:48:50+00:00
+41616,OPKA,small_airport,"Cape Monz Airport",24.827932357788086,66.6644287109375,40,AS,PK,PK-SD,"Cape Monz",0,OPKA,,,,,,50,2008-09-01T20:47:42+00:00
+41632,PK-REQ,small_airport,"Reko Diq Airport",29.04692,62.196819,2784,AS,PK,PK-BA,Chagai,0,,REQ,,,,,50,2019-05-10T11:11:38+00:00
+30826,OPCL,small_airport,"Chilas Airport",35.426700592,74.081703186,4146,AS,PK,PK-NA,Chilas,0,OPCL,CHB,,,https://en.wikipedia.org/wiki/Chilas_Airport,,50,2011-10-09T09:57:37+00:00
+32122,OPKE,small_airport,"Chore Airport",25.525999069213867,69.77179718017578,200,AS,PK,PK-SD,Chore,0,OPKE,,,,,,50,2008-09-01T20:47:48+00:00
+5459,OP10,small_airport,"Thar Airport",27.20050048828125,69.15380096435547,167,AS,PK,PK-SD,Chuchra,0,OP10,,OP10,,,,50,2008-09-01T20:48:54+00:00
+5466,OP17,small_airport,"Dadu West Airport",26.740800857543945,67.6666030883789,128,AS,PK,PK-SD,Dadu,0,OP17,DDU,OP17,,,,50,2008-09-01T20:49:01+00:00
+41614,OPDD,small_airport,"Dadu Airport",26.5545005798,67.67459869380001,121,AS,PK,PK-SD,Dadu,0,OPDD,DDU,,,,,50,2012-04-16T01:06:07+00:00
+41615,OPDK,small_airport,"Daharki Airport",28.5,69.69999694824219,274,AS,PK,PK-PB,Daharki,0,OPDK,,,,,,50,2008-09-01T20:47:36+00:00
+5479,OP28,small_airport,"Dhingar Airport",29.92329978942871,66.74610137939453,5215,AS,PK,PK-BA,Dhingar,0,OP28,,OP28,,,,50,2008-09-01T20:49:05+00:00
+41617,OPKF,small_airport,"Gharo Airport",24.729000091552734,67.58760070800781,20,AS,PK,PK-SD,Gharo,0,OPKF,,,,,,50,2008-09-01T20:47:49+00:00
+41630,PK-GRT,small_airport,"Gujrat Airport",32.60309982299805,74.07710266113281,760,AS,PK,PK-PB,Gujrat,0,,GRT,,,,,50,2008-09-01T20:48:51+00:00
+5476,OP25,small_airport,"Gurha Salim Airport",32.8785018921,73.60530090329999,800,AS,PK,PK-PB,"Gurha Salim",0,OP25,,OP25,,"https://en.wikipedia.org/wiki/Gurha_Salim_Airport,_Jhelum","OP 922, XJM",50,2011-10-09T12:34:55+00:00
+5469,OP1A,small_airport,"Jam Nida Northwest Airport",26.19809913635254,67.50370025634766,420,AS,PK,PK-SD,"Jam Nida",0,OP1A,,OP1A,,,,50,2008-09-01T20:49:03+00:00
+5484,OP35,small_airport,"Juzzak Airport",29.04050064086914,61.64739990234375,2861,AS,PK,PK-BA,Juzzak,0,OP35,,OP35,,,,50,2008-09-01T20:49:15+00:00
+35198,PK-KCF,small_airport,"Kadanwari Airport",27.1667003632,69.31670379639999,248,AS,PK,PK-SD,Kadanwari,0,OPKW,KCF,,,https://en.wikipedia.org/wiki/Kadanwari_Airport,,50,2014-12-18T02:25:53+00:00
+41641,PK-0008,small_airport,"Mari Indus East",32.91999816894531,71.69000244140625,310,AS,PK,PK-PB,Kalabagh,0,,,,,,,50,2008-09-01T20:49:29+00:00
+41619,OPKL,small_airport,"Kalat Airport",29.133333206176758,66.51667022705078,6100,AS,PK,PK-BA,Kalat,0,OPKL,KBH,,,,,50,2008-09-01T20:47:53+00:00
+5482,OP33,small_airport,"Kandhkot Airport",28.27400016784668,69.2760009765625,250,AS,PK,PK-SD,Kandhkot,0,OP33,,OP33,,,,50,2008-09-01T20:49:11+00:00
+5278,OPSF,medium_airport,"Faisal Air Base",24.87420082092285,67.11849975585938,29,AS,PK,PK-SD,Karachi,0,OPSF,,,,https://en.wikipedia.org/wiki/Faisal_Airbase,,50,2009-02-20T09:49:08+00:00
+41618,OPKK,small_airport,"Korangi Creek Airport",24.784299850463867,67.13899993896484,3,AS,PK,PK-SD,Karachi,0,OPKK,,,,,,50,2008-09-01T20:47:52+00:00
+5480,OP31,small_airport,"Kashmor Airport",28.470600128173828,69.5990982055664,260,AS,PK,PK-SD,Kashmor,0,OP31,,OP31,,,,50,2008-09-01T20:49:07+00:00
+5481,OP32,small_airport,"Khairpur Airport",28.036100387573242,69.67489624023438,300,AS,PK,PK-SD,Khairpur,0,OP32,,OP32,,,,50,2008-09-01T20:49:09+00:00
+41611,OPBL,small_airport,"Bela Airport",29.49220085144043,71.11840057373047,347,AS,PK,PK-PB,"Khan Bela",0,OPBL,,,,,,50,2008-09-01T20:47:26+00:00
+5464,OP15,small_airport,"Ouzkani Airport",30.252899169921875,70.21289825439453,2331,AS,PK,PK-PB,Khandor,0,OP15,,OP15,,,,50,2008-09-01T20:48:58+00:00
+5256,OPKN,small_airport,"Kharan Airport",28.597200393676758,65.42250061035156,2408,AS,PK,PK-BA,Kharan,0,OPKN,,,,,,50,2008-09-01T20:47:55+00:00
+41639,PK-0006,small_airport,"Kharan East Airport",28.61989974975586,65.46649932861328,2408,AS,PK,PK-BA,Kharan,0,,,,,,,50,2008-09-01T20:49:27+00:00
+5477,OP26,small_airport,"Khewra Airport",32.62910079956055,73.02259826660156,767,AS,PK,PK-PB,Khewra,0,OP26,,OP26,,,,50,2008-09-01T20:49:03+00:00
+5465,OP16,small_airport,"Khorewah Airport",24.787200927734375,68.55719757080078,16,AS,PK,PK-SD,Khorewah,0,OP16,,OP16,,,,50,2008-09-01T20:48:59+00:00
+32100,OPKT,small_airport,"Kohat Airport",33.5699996948,71.4400024414,1650,AS,PK,PK-NW,Kohat,0,OPKT,OHT,,,https://en.wikipedia.org/wiki/Kohat_Airbase,,50,2011-10-09T13:49:49+00:00
+5467,OP18,small_airport,"Kot Addu Airport",30.49489974975586,70.97109985351562,423,AS,PK,PK-PB,"Kot  Addu",0,OP18,,OP18,,,,50,2008-09-01T20:49:01+00:00
+5468,OP19,small_airport,"Chashma Airport",32.4244995117,71.4585037231,645,AS,PK,PK-PB,Kundian,0,OP19,,OP19,,https://en.wikipedia.org/wiki/Chashma_Airport,,50,2011-10-09T09:54:57+00:00
+5462,OP13,small_airport,"Mad Jamu Airport",28.356199264526367,70.6001968383789,256,AS,PK,PK-PB,"Mad Jamu Kholelan",0,OP13,,OP13,,,,50,2008-09-01T20:48:58+00:00
+5475,OP24,small_airport,"Mandi Bahauddin Air Base",32.60139846801758,73.5083999633789,750,AS,PK,PK-PB,"Mandi Bahauddin",0,,,,,,OP24,50,2009-04-11T09:31:08+00:00
+41631,PK-HRA,small_airport,"Mansehra Airport",34.33332061767578,73.20020294189453,3530,AS,PK,PK-NW,Mansehra,0,,HRA,,,,,50,2008-09-01T20:48:52+00:00
+5460,OP11,small_airport,"Mir Baz Airport",31.18779945373535,70.18450164794922,2350,AS,PK,PK-BA,"Mir Baz",0,OP11,,OP11,,,,50,2008-09-01T20:48:56+00:00
+32123,OPMN,small_airport,"Miram Shah Airport",33.01470184326172,70.06439971923828,3022,AS,PK,PK-TA,"Miram Shah",0,OPMN,,,,,,50,2008-09-01T20:48:03+00:00
+41621,OPMK,small_airport,"Mirpur Khas Air Base",25.682501,69.0728,180,AS,PK,PK-SD,"Mirpur Khas",0,OPMK,,,,,,50,2018-04-26T12:43:10+00:00
+5483,OP34,small_airport,"Nok Kundi Airport",28.819400787353516,62.7307014465332,2227,AS,PK,PK-BA,"Nok Kundi",0,OP34,,OP34,,,,50,2008-09-01T20:49:13+00:00
+41613,OPCT,small_airport,"Chirat Airport",33.968101501464844,71.96749877929688,1192,AS,PK,PK-NW,Nowshera,0,OPCT,,,,,,50,2008-09-01T20:47:32+00:00
+5266,OPNK,small_airport,"Nushki Airport",29.538999557495117,66.02330017089844,3200,AS,PK,PK-BA,Nushki,0,OPNK,NHS,,,,,50,2008-09-01T20:48:13+00:00
+5267,OPOK,small_airport,"Okara Cantonment Airstrip",30.740999221800003,73.3576965332,568,AS,PK,PK-PB,Okara,0,OPOK,,,,,,50,2012-01-04T10:57:54+00:00
+5486,OP37,small_airport,"Pano Aqil Southeast Airport",27.813100814819336,69.16709899902344,200,AS,PK,PK-SD,"Pano Aqil",0,OP37,,OP37,,,,50,2008-09-01T20:49:19+00:00
+41622,OPPN,small_airport,"Pishin Airport",30.55620002746582,66.9854965209961,5075,AS,PK,PK-BA,Pishin,0,OPPN,,,,,,50,2008-09-01T20:48:22+00:00
+5271,OPQS,small_airport,"Qasim Airport",33.56019973754883,73.033203125,1581,AS,PK,PK-PB,Qasim,0,OPQS,,,,https://en.wikipedia.org/wiki/Dhamial_Army_Airbase,,50,2008-09-01T20:48:22+00:00
+5275,OPRS,medium_airport,"Risalpur Air Base",34.08110046386719,71.97260284423828,1050,AS,PK,PK-NW,Risalpur,0,OPRS,,,,https://en.wikipedia.org/wiki/Risalpur_Airbase,,50,2009-02-20T09:51:10+00:00
+41625,OPSW,small_airport,"Sahiwal Airport",31.88944435119629,72.39167022705078,570,AS,PK,PK-PB,Sahiwal,0,OPSW,SWN,,,,,50,2008-09-01T20:48:38+00:00
+41633,PK-RZS,small_airport,"Sawan Airport",26.9662,68.878098,160,AS,PK,PK-SD,Sawan,1,OPSW,RZS,,,https://en.wikipedia.org/wiki/Sawan_Airport,,50,2016-07-07T06:16:29+00:00
+41623,OPSP,small_airport,"Shekhupura Airport",31.708499908447266,74.01020050048828,680,AS,PK,PK-PB,Shekhupura,0,OPSP,,,,,,50,2008-09-01T20:48:32+00:00
+41634,PK-SWV,closed,"Shikarpur Airport",29.166667,70.433333,219,AS,PK,PK-SD,Shikarpur,0,,SWV,,,,,50,2012-10-22T21:42:58+00:00
+32251,OPSB,small_airport,"Sibi Airport",29.571199417114258,67.847900390625,436,AS,PK,PK-BA,Sibi,0,OPSB,SBQ,,,,,50,2008-09-01T20:48:27+00:00
+31936,OPMP,small_airport,"Sindhri Tharparkar Airport",25.68280029296875,69.07279968261719,51,AS,PK,PK-SD,Sindhri,0,OPMP,MPD,,,,,50,2008-09-01T20:48:05+00:00
+41626,OPTT,small_airport,"Taftan Airport",28.96419906616211,61.595401763916016,2742,AS,PK,PK-BA,Taftan,0,OPTT,TFT,,,,,50,2008-09-01T20:48:41+00:00
+32458,OPTA,small_airport,"Tarbela Dam Airport",33.9860992432,72.61139678960001,1114,AS,PK,PK-NW,Tarbela,0,OPTA,TLB,,,https://en.wikipedia.org/wiki/Tarbela_Dam_Airport,,50,2011-10-09T12:15:23+00:00
+5474,OP23,small_airport,"Thal Airport",33.38759994506836,70.58879852294922,2650,AS,PK,PK-NW,Thal,0,OP23,,OP23,,,,50,2008-09-01T20:49:03+00:00
+5284,OPWN,small_airport,"Wana Airport",32.3046989440918,69.57039642333984,4550,AS,PK,PK-TA,Waana,0,OPWN,WAF,,,,,50,2008-09-01T20:48:45+00:00
+41645,PK-0012,small_airport,"Wateji Airstrip",24.8658,67.4096,149,AS,PK,PK-SD,Wateji,0,,,,,,,50,2016-05-15T17:52:23+00:00
+317901,PK-0016,small_airport,"Petaro Airport",25.5448,68.3265,113,AS,PK,PK-SD,"Cadet College Petaro",0,,,,,,,0,2016-05-15T16:46:15+00:00
+41636,PK-0003,heliport,"Dalbandin Heliport",28.874799728393555,64.404296875,2776,AS,PK,PK-BA,Dalbandin,0,,,,,,,0,2008-09-01T20:49:24+00:00
+41637,PK-0004,heliport,"Gilgit Heliport",35.91780090332031,74.34329986572266,4864,AS,PK,PK-NA,Gilgit,0,,,,,,,0,2008-09-24T09:08:59+00:00
+41638,PK-0005,heliport,"Gurha Salim Heliport",32.88130187988281,73.60140228271484,769,AS,PK,PK-PB,"Gurha Salim",0,,,,,,,0,2008-09-01T20:49:26+00:00
+317902,PK-0017,small_airport,"Jungshahi Airstrip",24.8366,67.7619,45,AS,PK,PK-SD,Jungshahi,0,,,,,,,0,2016-05-15T17:30:13+00:00
+41640,PK-0007,heliport,"Korangi Creek Heliport",24.78219985961914,67.13639831542969,3,AS,PK,PK-SD,Karachi,0,,,,,,,0,2008-09-01T20:49:28+00:00
+317903,PK-0018,closed,"Chota Malir Airstrips",24.95,67.173,165,AS,PK,PK-SD,Karachi,0,,,,,,,0,2016-05-15T18:26:12+00:00
+317904,PK-0019,closed,"PAF Base Malir",24.97,67.228,205,AS,PK,PK-SD,Karachi,0,,,,,,,0,2016-05-15T18:35:35+00:00
+299580,PK-0014,small_airport,"Khanpur Airport",28.6433333333,70.6325,283,AS,PK,PK-PB,Khanpur,0,,,,,,,0,2011-10-09T16:10:54+00:00
+317899,PK-0015,small_airport,"Larkana Airport",27.4831,68.1926,167,AS,PK,PK-SD,Larkana,0,,,,,,,0,2016-05-15T15:25:26+00:00
+325954,PK-0025,closed,"Notakzai Airport",29.653524,66.383008,5102,AS,PK,PK-BA,Notakzai,0,,,,,,,0,2017-12-25T08:34:00+00:00
+41643,PK-0010,heliport,"Nushki Heliport",29.540199279785156,66.02449798583984,3271,AS,PK,PK-BA,Nushki,0,,,,,,,0,2008-09-01T20:49:30+00:00
+325955,PK-0026,closed,"Khai Airport",28.273904,70.077635,258,AS,PK,PK-PB,Sadiqabad,0,,,,,,,0,2017-12-25T10:42:14+00:00
+325945,PK-0023,closed,"Saranan Airport",30.566843,66.893477,4858,AS,PK,PK-BA,Saranan,0,,,,,,Sārānān,0,2017-12-24T18:21:16+00:00
+299579,PK-0013,heliport,"Sialkot Cantonment Airport",32.5147222222,74.52888888890001,2074,AS,PK,PK-PB,Sialkot,0,,,,,https://en.wikipedia.org/wiki/Sialkot_Cantonment_Airport,,0,2011-10-09T14:30:41+00:00
+325953,PK-0024,closed,"Spezand Airfield",29.916193,66.987726,5790,AS,PK,PK-BA,Spezand,0,,,,,,,0,2017-12-25T08:08:25+00:00
+317905,PK-0020,small_airport,"Sujawal Airport",24.6141,68.0827,30,AS,PK,PK-SD,Sujawal,0,,,,,,,0,2016-05-15T18:55:31+00:00
+325944,PK-0022,closed,"Tank Airport",32.19809,70.404027,825,AS,PK,PK-NW,Tank,0,,,,,,,0,2017-12-24T17:54:32+00:00
+41644,PK-0011,heliport,"Walton Heliport",31.48979949951172,74.34880065917969,695,AS,PK,PK-PB,Walton,0,,,,,,,0,2008-09-01T20:49:31+00:00
+301278,ZIZ,heliport,"Zamzama Heliport",26.710944444400003,67.66725,128,AS,PK,PK-SD,"Zamzama Gas Field",0,,ZIZ,,,,,0,2012-04-21T15:05:52+00:00

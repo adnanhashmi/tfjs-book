@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <html>
+        <head>
+            <title>Chapter 4</title>
+            <!-- Add reference to styles -->
+            <link rel="stylesheet" href="../../css/style.css">
+
+            <!-- Reference to TensorFlow.js script file -->
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+         
+            <!-- Add reference to page script file -->
+            <script src="Listing-4-5.html.js"></script>
+        </head>
+        <body> 
+          <form>
+             <h1>Apress Machine Learning with TensorFlow.js</h1>
+             <h2>Listing 4-5</h2>
+             <pre>
+function runCode() {
+  // Define a functional neural network model
+  const input = tf.input({shape: [4]});
+  // Define the first layer
+  const layer1 = tf.layers.dense({units: 5, activation: 'relu'}).apply(input);
+  // Define the second layer
+  const layer2 = tf.layers.dense({units: 3, 
+                  activation: 
+                  'softmax'}).apply(layer1);
+
+  // Create the model
+  const model = tf.model({inputs: input, outputs: layer2});
+  // Display model summary
+  model.summary();
+}
+            </pre>
+            <p id="message"></p>
+            <br /><br />
+            <input type="button" value="Click to Execute Code" onclick="javascript: runCode(); document.getElementById('message').innerHTML = 'Code executed successfully. See Console tab in Developer toolbar.';" />
+    </form>
+  </body>
+</html>

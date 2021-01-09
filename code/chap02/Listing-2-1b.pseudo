@@ -1,0 +1,74 @@
+// --------------------------------------------------------------------------------------------------------------------
+// ADNAN HASHMI
+// The statements below are in pseudo-code and should be used for understanding only; NOT meant for execution.
+// --------------------------------------------------------------------------------------------------------------------
+ACTIVATION_FUNC(NUMERIC_VAL, ACTIVATION_TYPE, ALPHA=0)
+/* 
+   NUMERIC_VAL = Numeric input value for layer, 
+   ACTIVATION_TYPE = Type of activation to use,
+   ALPHA = Optional parameter; Only needed for Parametric ReLU activation
+*/
+BEGIN
+   /* switch..case Statement */
+   Case based on ACTIVATION_TYPE
+   BEGIN
+      CASE ‘SIGMOID’
+      BEGIN
+         Set RESULT := (1 /(1 + CALC_EXPONENTIAL(-1 * NUMERIC_VAL)))
+         /* 
+            Example of exponential function call in Python
+            https://trinket.io/python/6b658abf06 
+         */
+      END
+      CASE ‘TanH’
+      BEGIN
+         Set RESULT := (2 /(1 + CALC_EXPONENTIAL(-2 * NUMERIC_VAL))) -1
+      END
+      CASE ‘ReLU’
+      BEGIN
+         IF NUMERIC_VAL < 0
+            Set RESULT := 0
+         ELSE
+            Set RESULT := 1
+      END
+      CASE ‘LeakyReLU’
+      BEGIN
+         IF NUMERIC_VAL < 0
+            Set RESULT := 0.01 * NUMERIC_VAL
+         ELSE
+            Set RESULT := NUMERIC_VAL
+      END
+      CASE ‘ParametricReLU’ /* Also called Parameterized ReLU */
+      BEGIN
+         IF NUMERIC_VAL >= 0
+            Set RESULT := NUMERIC_VAL
+         ELSE
+            IF ALPHA = 0 OR ALPHA = NULL
+               ERROR(‘Alpha parameter value expected.’)
+
+            IF ALPHA = 0.01
+               Set RESULT := ACTIVATION_FUNC(NUMERIC_VAL, ‘LeakyReLU’)
+            ELSE
+               Set RESULT := ALPHA * NUMERIC_VAL
+      END
+      CASE ‘Softmax’
+      BEGIN
+         Set TEMP := CALC_EXPONENTIAL(NUMERIC_VAL)
+         Set RESULT := TEMP/CALC_SUMMATION(TEMP)
+         /* 
+            Example of summation function call in Python
+            https://trinket.io/python/9e3f38bb25 
+         */
+      END
+      CASE ‘Swish’
+      BEGIN
+         Set RESULT := NUMERIC_VAL/(1 - CALC_EXPONENTIAL(-1 * NUMERIC_VAL))
+      END
+      DEFAULT
+      BEGIN
+         ERROR(‘Unknown Activation Type.’)
+      END
+   END
+
+   Return RESULT /* Return result of activation function */
+END

@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <html>
+        <head>
+            <title>Chapter 4</title>
+            <!-- Add reference to styles -->
+            <link rel="stylesheet" href="../../css/style.css">
+
+            <!-- Reference to TensorFlow.js script file -->
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+         
+            <!-- Add reference to page script file -->
+            <script src="Listing-4-1c.html.js"></script>
+        </head>
+        <body> 
+          <form>
+             <h1>Apress Machine Learning with TensorFlow.js</h1>
+             <h2>Listing 4-1c</h2>
+             <pre>
+function runCode() {
+   try {
+     // Define a variable value
+     let val = tf.variable(tf.tensor([50, 100, 150, 200]));
+     // the following statement generates an error
+     val.assign(tf.tensor([450, 500, 550]));
+
+     // this statement does not get executed
+     document.getElementById('message').innerHTML = 'Final Value: ' + val;
+   }
+   catch(err) {
+    // the statements in the catch block get executed when an error occurs
+     document.getElementById('message').innerHTML = 'ERROR: ' + err.message;
+   }
+}
+            </pre>
+            <p id="message"></p>
+            <br /><br />
+            <input type="button" value="Click to generate error" onclick="javascript: runCode();" />
+    </form>
+  </body>
+</html>

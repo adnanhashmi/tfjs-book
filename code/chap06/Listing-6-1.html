@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+        <!-- Add reference to styles -->
+        <link rel="stylesheet" href="../../css/style.css">
+
+        <!-- Import TensorFlow.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+        <!-- Add reference to page script file -->
+        <script src="Listing-6-1.html.js"></script>
+    </head>
+    <body>
+      <form>
+         <h1>Apress Machine Learning with TensorFlow.js</h1>
+         <h2>Listing 6-1</h2>
+         <pre>
+// Loading a CSV file 
+async function loadCsvData() {
+    const csvUrl = 'https://url/';
+    const csvFileName = 'fileName.csv';
+    const csvFileUrl = csvUrl + csvFileName;
+
+    const csvDataset = tf.data.csv(csvFileUrl, {
+      hasHeader: true,
+      columnConfigs: {
+          predictionLabelName: {
+            isLabel: true
+          }
+      }
+    });
+}          
+         </pre>
+         <p id="message"></p>
+      </form>
+    </body>
+</html>

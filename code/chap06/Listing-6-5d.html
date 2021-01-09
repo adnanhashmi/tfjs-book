@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+        <!-- Add reference to styles -->
+        <link rel="stylesheet" href="../../css/style.css">
+
+        <!-- Add reference to page script file -->
+        <script src="Listing-6-5d.html.js"></script>
+    </head>
+    <body>
+       <form>
+         <h1>Apress Machine Learning with TensorFlow.js</h1>
+         <h2>Listing 6-5d</h2>
+         <pre>
+var earthquakeReadings = [5.9, 5.6, 7.2, 6.5, 6.3, 6.7, 5.5, 6, 6.2, 5.7];
+
+// Calls the map function on an array
+function performMapOperationOnArray() {
+    let rounded = earthquakeReadings.map(Math.round);
+    let truncated = earthquakeReadings.map(Math.trunc);
+
+    alert("Rounded Readings: " + rounded);
+    alert("Truncated Readings: " + truncated);
+}                                      
+         </pre>
+         <p id="message"></p>
+         <input type="button" value="Click to Execute Code" onclick="javascript: performMapOperationOnArray();  document.getElementById('message').innerHTML = 'Code executed successfully.';" />
+        </form>
+    </body>
+</html>

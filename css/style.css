@@ -1,0 +1,9 @@
+body { margin: 50; font-family: "Arial"; }
+span { color: #336699; font-weight: bolder; font-size: small; }
+p { font-family: "Verdana"; font-size: small; }
+label { font-family: "Verdana"; font-size: 9pt; }
+a:link { text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { color: silver; }
+pre { background-color: #f1f1f1; padding: 25px; }
+input[type=button] { background-color: #ffcc00; border: none; color: black; padding: 16px 32px; text-decoration: none; margin: 4px 2px; cursor: pointer; }

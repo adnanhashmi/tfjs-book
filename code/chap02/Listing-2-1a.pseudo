@@ -1,0 +1,27 @@
+// --------------------------------------------------------------------------------------------------------------------
+// ADNAN HASHMI
+// The statements below are in pseudo-code and should be used for understanding only; NOT meant for execution.
+// --------------------------------------------------------------------------------------------------------------------
+PROCESS_LAYER(NEURONS, WEIGHTS, BIAS, ACTIVATION_TYPE)
+/* 
+   NEURONS = Values of neurons in layer (array), 
+   WEIGHTS = Assigned weights of neurons (array), 
+   BIAS = Layer bias,
+   ACTIVATION_TYPE = Type of activation function to use
+*/
+BEGIN
+   IF LENGTH(NEURONS) <> LENGTH(WEIGHTS)
+      ERROR(‘Invalid number of weights for the number of neurons in layer.’)
+
+   Set LAYER := 0 /* Initialize layer value total to zero */
+
+   FOR I = 1 TO LENGTH(NEURONS) /* For each neuron in layer */
+   BEGIN
+      Set LAYER := LAYER + (NEURONS[I] * WEIGHTS[I])
+   END
+   
+   Set LAYER := LAYER + BIAS /* Add bias to total */
+   Set LAYER := ACTIVATION_FUNC(LAYER, ACTIVATION_TYPE) /* Call activation function */
+
+   Return LAYER /* Return calculated value of layer */
+END

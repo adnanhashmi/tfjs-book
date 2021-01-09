@@ -1,0 +1,59 @@
+ISO3,Name,Year,Start Date,Event Name,Hazard Category,Hazard Type,New Displacements
+#country+code,#country+name,#date+year,#date+start,#description,#crisis+category,#crisis+type,#affected+idps+ind+newdisp+disaster
+PAK,Pakistan,2008,2008-09-08,,Weather related,Flood,200
+PAK,Pakistan,2008,2008-02-08,,Weather related,Flood,82000
+PAK,Pakistan,2008,2008-10-29,,Geophysical,Earthquake,7000
+PAK,Pakistan,2009,2009-01-01,,Weather related,Flood,
+PAK,Pakistan,2009,2009-01-01,,Weather related,Flood,
+PAK,Pakistan,2009,2009-01-01,,Weather related,Flood,84290
+PAK,Pakistan,2010,2010-01-01,Cyclone 'Phet',Weather related,Storm,60000
+PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,11000000
+PAK,Pakistan,2010,2010-01-01,,Weather related,Wet mass movement,
+PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,
+PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,
+PAK,Pakistan,2010,2010-01-01,,Weather related,Wet mass movement,
+PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,
+PAK,Pakistan,2011,2011-01-01,,Weather related,Flood,300000
+PAK,Pakistan,2011,2011-01-01,,Geophysical,Earthquake,
+PAK,Pakistan,2012,2012-01-01,,Weather related,Flood,1856570
+PAK,Pakistan,2013,2013-09-24,Baluchistan earthquakes (September),Geophysical,Earthquake,205619
+PAK,Pakistan,2013,2013-07-01,Monsoon floods,Weather related,Flood,123817
+PAK,Pakistan,2013,2013-04-16,Iran earthquakes cause Pakistan displacement(April),Geophysical,Earthquake,78000
+PAK,Pakistan,2014,2014-03-19,Attock district hailstorm,Weather related,Storm,81
+PAK,Pakistan,2014,2014-09-01,Loralai district flood,Weather related,Flood,466
+PAK,Pakistan,2014,2014-05-19,Balochistan May floods,Weather related,Flood,516
+PAK,Pakistan,2014,2014-08-14,Mirpur district flood,Weather related,Flood,25
+PAK,Pakistan,2014,2014-06-04,Bahawalnagar flash flood,Weather related,Flood,144
+PAK,Pakistan,2014,2014-09-01,September riverine floods,Weather related,Flood,740150
+PAK,Pakistan,2014,2014-01-19,Chagai earthquake,Geophysical,Earthquake,560
+PAK,Pakistan,2014,2014-10-29,Ziarat earthquake,Geophysical,Earthquake,11365
+PAK,Pakistan,2014,2014-07-14,Punjab and Sindh July floods,Weather related,Flood,176
+PAK,Pakistan,2014,2014-09-24,Dadu district flood,Weather related,Flood,25
+PAK,Pakistan,2014,2014-09-24,Dera Bugti district flood,Weather related,Flood,220
+PAK,Pakistan,2014,2014-07-26,Hyderabad July flood,Weather related,Flood,6
+PAK,Pakistan,2014,2014-09-30,Jaffarabad flood,Weather related,Flood,13822
+PAK,Pakistan,2014,2014-08-22,Bahawalpur August flood,Weather related,Flood,132
+PAK,Pakistan,2014,2014-08-02,Sindh August floods,Weather related,Flood,409
+PAK,Pakistan,2014,2014-09-05,Punjab September floods,Weather related,Flood,428
+PAK,Pakistan,2014,2014-07-01,Punjab July floods 1,Weather related,Flood,132
+PAK,Pakistan,2014,2014-07-27,Punjab July floods 2,Weather related,Flood,441
+PAK,Pakistan,2014,2014-09-20,Bahawalpur September flood,Weather related,Flood,69
+PAK,Pakistan,2014,2014-04-05,Attock district flood,Weather related,Flood,31
+PAK,Pakistan,2014,2014-09-24,Badin flood caused by heavy rains,Weather related,Flood,113
+PAK,Pakistan,2014,2014-08-29,Floods caused by rains in the Sindh province,Weather related,Flood,1266
+PAK,Pakistan,2015,2015-10-26,Northern Afghanistan earthquake,Geophysical,Earthquake,665812
+PAK,Pakistan,2015,2015-08-01,Floods in the North and Central regions,Weather related,Flood,330000
+PAK,Pakistan,2015,2015-06-03,Khudzar district flash flood,Weather related,Flood,1240
+PAK,Pakistan,2015,2015-07-15,Chitral G.L.O.F.,Geophysical,Wet mass movement,4049
+PAK,Pakistan,2015,2015-04-26,Peshawar mini cyclone,Weather related,Storm,564
+PAK,Pakistan,2016,2016-03-01,Pre-monsoon floods,Weather related,Flood,10937
+PAK,Pakistan,2016,2016-06-01,Monsoon season,Weather related,Flood,1736
+PAK,Pakistan,2017,2017-06-26,Chitral Floods,Weather related,Flood,1000
+PAK,Pakistan,2017,2017-02-01,Chitral Avalanches,Weather related,Wet mass movement,122
+PAK,Pakistan,2017,2017-06-26,Pakistan monsoon season,Weather related,Flood,628
+PAK,Pakistan,2018,2018-06-10,Pakistan: Monsoon floods - 20/06/2018,Weather related,Flood,805
+PAK,Pakistan,2018,2018-07-19,Pakistan: Glaciar melt flooding - Gilgit-Baltistan - 19/07/2018,Geophysical,Mass movement,1000
+PAK,Pakistan,2018,2018-06-04,Pakistan: Storm - Azad Jammu and Kashmir; Bagh - 05/06/2018,Weather related,Storm,134
+PAK,Pakistan,2018,2018-06-10,Pakistan: Flash floods - Chitral - 10/06/2018,Weather related,Flood,112
+PAK,Pakistan,2018,2018-03-14,Pakistan: Landslide - Kurram Agency - 14/3/2018,Weather related,Wet mass movement,16
+PAK,Pakistan,2018,2018-01-31,Pakistan: Earthquake - Balochistan - 31/1/2018,Geophysical,Earthquake,11

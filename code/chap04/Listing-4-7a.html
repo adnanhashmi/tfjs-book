@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <html>
+        <head>
+            <title>Chapter 4</title>
+            <!-- Add reference to styles -->
+            <link rel="stylesheet" href="../../css/style.css">
+
+            <!-- Add references to TensorFlow.js and model script files -->
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+         
+            <!-- Add reference to page script file -->
+            <script src="Listing-4-3a.html.js"></script>
+        </head>
+        <body> 
+          <form>
+             <h1>Apress Machine Learning with TensorFlow.js</h1>
+             <h2>Listing 4-3a</h2>
+             <pre>
+let model;
+
+async function predictFromImage() {
+    document.getElementById('message').innerText = "Classification in progress. Please wait...";
+    // Load mobilenet Model
+    model = await mobilenet.load();
+
+    // Make a prediction on the Image
+    const imgElement = document.getElementById("ImageElement");
+    const result = await model.classify(imgElement);
+    document.getElementById('message').innerText = result[0].className;
+}
+            </pre>
+            <p id="message"></p>
+            <img id="ImageElement" crossorigin src="../../images/Pakistan.jpg" />
+            <br /><br />
+            <input type="button" value="Classify Image" onclick="javascript: predictFromImage();" />
+    </form>
+  </body>
+</html>

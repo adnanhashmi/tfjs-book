@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+        <!-- Add reference to styles -->
+        <link rel="stylesheet" href="../../css/style.css">
+
+        <!-- Add reference to page script file -->
+        <script src="Listing-6-5e.html.js"></script>
+    </head>
+    <body>
+       <form>
+         <h1>Apress Machine Learning with TensorFlow.js</h1>
+         <h2>Listing 6-5e</h2>
+         <pre>
+var earthquakeReadings = [5.9, 5.6, 7.2, 6.5, 6.3, 6.7, 5.5, 6, 6.2, 5.7];
+
+function calculateAverage(arrayToUse) {
+    return arrayToUse.reduce((a,b)=>a+b)/arrayToUse.length
+}
+
+// Calls the reduce function on an array
+function performReduceOperationOnArray() {
+    alert("Average Reading: " + calculateAverage(earthquakeReadings).toFixed(2));
+}                                                              
+         </pre>
+         <p id="message"></p>
+         <input type="button" value="Click to Execute Code" onclick="javascript: performReduceOperationOnArray();  document.getElementById('message').innerHTML = 'Code executed successfully.';" />
+        </form>
+    </body>
+</html>

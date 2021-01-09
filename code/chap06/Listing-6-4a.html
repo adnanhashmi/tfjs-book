@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+        <!-- Add reference to styles -->
+        <link rel="stylesheet" href="../../css/style.css">
+
+        <!-- Import TensorFlow.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>        
+        <!-- Add reference to page script file -->
+        <script src="Listing-6-4a.html.js"></script>
+    </head>
+    <body> 
+      <form>
+         <h1>Apress Machine Learning with TensorFlow.js</h1>
+         <h2>Listing 6-4a</h2>
+         <pre>
+// Convert image to tensor
+function convertImageToTensor() {
+    let img = document.getElementById('image-element'); // get image HTML element
+
+    let tensorData = tf.browser.fromPixels(img)	        // covert to tensor
+    alert(tensorData);                                  // display tensor in alert dialog
+}            
+         </pre>
+         <img id="image-element" src="Listing-6-4a.jpg" width="600" height="259" />
+         <br />
+         <label>Source: <a href="https://granta.com/pakistan-introduction/">https://granta.com/pakistan-introduction/</a> </label>
+         <p id="message"></p>
+         <input type="button" value="Click to Execute Code" onclick="javascript: convertImageToTensor();  document.getElementById('message').innerHTML = 'Code executed successfully.';" />
+    </form>
+    </body>
+</html>

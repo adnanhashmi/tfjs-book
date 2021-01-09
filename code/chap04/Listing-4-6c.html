@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <html>
+        <head>
+            <title>Chapter 4</title>
+            <!-- Add reference to styles -->
+            <link rel="stylesheet" href="../../css/style.css">
+
+            <!-- Reference to TensorFlow.js script file -->
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+         
+            <!-- Add reference to page script file -->
+            <script src="Listing-4-6c.html.js"></script>
+        </head>
+        <body> 
+          <form>
+             <h1>Apress Machine Learning with TensorFlow.js</h1>
+             <h2>Listing 4-6c</h2>
+             <pre>
+function runCode() {
+   // Define the model
+   const model = tf.sequential({
+      layers: [tf.layers.dense({units: 1, inputShape: [10]})]
+   });
+
+   // Compile the mode
+   model.compile({optimizer: 'sgd', loss: 'meanSquaredError', metrics: ['mse']});
+
+   // Train the model
+   model.fit(tf.ones([8, 10]), tf.ones([8, 1]), {
+      batchSize: 1,
+      epochs: 3
+   });
+
+   // Make a prediction
+   let result = model.predict(tf.ones([8, 10]), {batchSize: 4})
+
+   alert("Prediction completed.");
+   document.getElementById('message').innerHTML = result;
+}
+            </pre>
+            <p id="message"></p>
+            <br /><br />
+            <input type="button" value="Click to Execute Code" onclick="javascript: runCode();" />
+    </form>
+  </body>
+</html>
